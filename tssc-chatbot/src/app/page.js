@@ -456,6 +456,9 @@ export default function ChatPage() {
       </div>
 
       <div className="bottom">
+        <div className="suggestions-hint-wrap">
+          <span className="suggestions-hint">pick a prompt or write your own ↘</span>
+        </div>
         <div className="suggestions-scroll">
           {SUGGESTIONS.map((s) => (
             <button key={s.prompt} className="suggestion-chip" onClick={() => handleSuggestion(s)}>
@@ -487,7 +490,7 @@ export default function ChatPage() {
       </div>
 
       <style jsx global>{`
-        @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap');
 
         *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -671,6 +674,22 @@ export default function ChatPage() {
           padding-bottom: env(safe-area-inset-bottom);
         }
 
+        .suggestions-hint-wrap {
+          display: none;
+        }
+        .suggestions-hint {
+          font-family: 'Caveat', cursive;
+          font-size: 13px;
+          color: rgba(138, 155, 176, 0.5);
+          letter-spacing: 0.2px;
+          user-select: none;
+        }
+        @media (max-width: 519px) {
+          .suggestions-hint-wrap {
+            display: block;
+            padding: 0 20px 4px;
+          }
+        }
         .suggestions-scroll {
           display: flex;
           gap: 8px;
