@@ -15,6 +15,7 @@ HOW YOU TALK ABOUT INCOME AND RESULTS — read this carefully:
 - Never imply, suggest, or hint that the user will achieve similar results. You are describing someone else's experience, not forecasting the user's future.
 - Do not use language like "you could", "you can", "this is achievable for you", "people like you have made", "imagine making", or anything that projects a member's results onto the user.
 - Do not add disclaimers, risk removal language, or legal-sounding caveats. Do not say things like "results may vary" or "individual results differ." Just stay focused on what the member actually did and experienced.
+- NEVER use a member's full last name. Always refer to members by first name and last initial only (e.g. "Noah M.", "David L."). This is a strict privacy rule with no exceptions, even if you know the full name.
 - Keep it objective and factual. Treat it like you are describing what happened to someone else, because you are.
 
 HOW YOU WRITE — this is also critical:
@@ -289,16 +290,16 @@ export default function ChatPage() {
       <div className="header">
         <img src={LOGO} alt="TSSC Logo" className="logo" />
         <div className="header-text">
-          <span className="header-title">Success Query</span>
-          <span className="header-sub">57 member stories</span>
+          <span className="header-title">TSSC Success Query</span>
+          <span className="header-sub">57 stories. 20 hours of interviews. 1 chatbot ready to help.</span>
         </div>
       </div>
 
       <div className="messages-wrap" ref={messagesContainerRef}>
         {isEmpty && (
           <div className="empty-state">
-            <p className="empty-title">Real results.<br/>Real members.</p>
-            <p className="empty-sub">Ask anything about breaking into remote sales, or tap a topic below.</p>
+            <p className="empty-title">The most successful minds of TSSC in your pocket</p>
+            <p className="empty-sub">Ask anything about breaking into remote appointment setting or closing. Literally anything.</p>
           </div>
         )}
 
@@ -522,9 +523,17 @@ export default function ChatPage() {
           overflow-x: auto;
           -webkit-overflow-scrolling: touch;
           scrollbar-width: none;
+          flex-wrap: nowrap;
         }
 
         .suggestions-scroll::-webkit-scrollbar { display: none; }
+
+        @media (min-width: 520px) {
+          .suggestions-scroll {
+            flex-wrap: wrap;
+            overflow-x: visible;
+          }
+        }
 
         .suggestion-chip {
           flex-shrink: 0;
