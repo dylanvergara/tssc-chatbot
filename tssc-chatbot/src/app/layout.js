@@ -1,7 +1,13 @@
 export const metadata = {
   title: 'TSSC Success Query',
   description: 'Real results from real Serial Sales Community members.',
-  viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
+}
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
 }
 
 export default function RootLayout({ children }) {
