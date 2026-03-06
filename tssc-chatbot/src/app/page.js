@@ -214,6 +214,8 @@ export default function ChatPage() {
   const [input, setInput] = useState('');
   const [loading, setLoading] = useState(false);
   const [awaitingContext, setAwaitingContext] = useState(null);
+  const [streamingText, setStreamingText] = useState('');
+  const [isStreaming, setIsStreaming] = useState(false);
   const messagesEndRef = useRef(null);
   const inputRef = useRef(null);
   const messagesContainerRef = useRef(null);
@@ -246,11 +248,35 @@ export default function ChatPage() {
       });
       const data = await res.json();
       const reply = data.content?.[0]?.text || 'Something went wrong.';
-      setMessages([...newMessages, { role: 'assistant', content: reply }]);
+      
+      // Typewriter effect
+      setLoading(false);
+      setIsStreaming(true);
+      setStreamingText('');
+      setMessages([...newMessages, { role: 'assistant', content: '' }]);
+      
+      let i = 0;
+      const speed = 12;
+      const typeChar = () => {
+        if (i < reply.length) {
+          const chunk = reply.slice(0, i + 1);
+          setStreamingText(chunk);
+          setMessages(prev => {
+            const updated = [...prev];
+            updated[updated.length - 1] = { role: 'assistant', content: chunk };
+            return updated;
+          });
+          i++;
+          setTimeout(typeChar, speed);
+        } else {
+          setIsStreaming(false);
+        }
+      };
+      typeChar();
     } catch (e) {
+      setLoading(false);
       setMessages([...newMessages, { role: 'assistant', content: 'Connection error. Please try again.' }]);
     }
-    setLoading(false);
   };
 
   const handleSuggestion = (s) => {
@@ -602,7 +628,7 @@ export default function ChatPage() {
           border-radius: 22px;
           color: #e8eaed;
           font-family: 'DM Sans', sans-serif;
-          font-size: 15px;
+          font-size: 16px;
           padding: 10px 16px;
           resize: none;
           outline: none;
