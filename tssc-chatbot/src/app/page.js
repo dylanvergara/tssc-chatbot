@@ -457,7 +457,7 @@ export default function ChatPage() {
 
       <div className="bottom">
         <div className="suggestions-hint-wrap">
-          <span className="suggestions-hint">pick a prompt or write your own ↘</span>
+          <span className="suggestions-hint">scroll to select a prompt, or type your own.</span>
         </div>
         <div className="suggestions-scroll">
           {SUGGESTIONS.map((s) => (
@@ -670,7 +670,6 @@ export default function ChatPage() {
         .bottom {
           flex-shrink: 0;
           background: #0d0f12;
-          border-top: 1px solid rgba(182, 205, 222, 0.08);
           padding-bottom: env(safe-area-inset-bottom);
         }
 
@@ -688,6 +687,7 @@ export default function ChatPage() {
           .suggestions-hint-wrap {
             display: block;
             padding: 0 20px 4px;
+            text-align: center;
           }
         }
         .suggestions-scroll {
