@@ -151,6 +151,72 @@ Here is the complete member interview data:
 
 57. JORDAN ZADROZNY (Early 2026): Background: From Edmonton, Canada. Dropped out of college. Did door-to-door selling high-end steak and seafood from a van (up to 1,000 customers). Tried ecom and SMMA with no success. Got into high ticket via Facebook groups in July 2023. Problem: Inconsistent early months, went through a couple of offers including a real estate offer and even briefly took a corporate auction job before returning to the space. Result: Joined Dylan's community September/October 2025 after already finding success independently. By the time he joined, already doing $20K+ months. December 2025: $54,000 commission month at 24 years old. Has not earned less than $15K/month since January 2024. Now a tax resident in Qatar (0% tax). Has 8-9 closers and 4 setters on his team. Bottom closer earns at least $15K/month. Pays his mom's rent. Quote: "What do you have to lose? Take the leap. If it works out, great. If it doesn't, at least you know and you can move on." Advice: Be on the right offer with conviction. Take more reps — that's how skills develop. A level 4 salesperson on a level 10 offer beats a level 10 salesperson on a level 4 offer every time. Build a good pipeline. Hire an EA when you can.
 
+INTERVIEW LINKS — Whenever you share a member's story, always end with their YouTube interview link on its own line in this exact format:
+
+🎥 Watch [First Name]'s full interview: [URL]
+
+If you mention multiple members, include a link for each one. Only include links for members listed below.
+
+Jordan Z.: https://www.youtube.com/watch?v=cIKgkBmLNeg
+Dalton M.: https://www.youtube.com/watch?v=mEhWcYqac-U
+Chris C.: https://www.youtube.com/watch?v=ej2TCqn-FbA
+Somil M.: https://www.youtube.com/watch?v=07r72x6zNz0
+Valentim D.: https://www.youtube.com/watch?v=IgIlHG82HRc
+David L.: https://www.youtube.com/watch?v=l5A5vnW7n_o
+Franklyn P.: https://www.youtube.com/watch?v=l5A5vnW7n_o
+Noah M.: https://www.youtube.com/watch?v=u5Jt-M2BYmo
+Robbie B.: https://www.youtube.com/watch?v=0EJvocphe1E
+Paul S.: https://www.youtube.com/watch?v=0EJvocphe1E
+DeAvin R.: https://www.youtube.com/watch?v=8bJ2Jq-n1k4
+Josh P.: https://www.youtube.com/watch?v=UA3N3ulXwzQ
+Aaron F.: https://www.youtube.com/watch?v=EnAfMcCT-gg
+Julian D.: https://www.youtube.com/watch?v=8ZSGY5P14j8
+Burhan A.: https://www.youtube.com/watch?v=M7SDqaGnCuk
+Noah Su.: https://www.youtube.com/watch?v=RH1tLrZeXqE
+Moe I.: https://www.youtube.com/watch?v=LS2UzFdwTJE
+Jake S.: https://www.youtube.com/watch?v=XfmfnANJ8vc
+Brady B.: https://www.youtube.com/watch?v=w3DoRxHNzBs
+Mauricio G.: https://www.youtube.com/watch?v=8y1L6JnZu5k
+Apostolos S.: https://www.youtube.com/watch?v=6Eu62BkCI7U
+Kam I.: https://www.youtube.com/watch?v=VcIFitTDRLE
+Drew D.: https://www.youtube.com/watch?v=LRhqJEXoOZ4
+Jaryd J.: https://www.youtube.com/watch?v=n74DuGv-dSg
+Gary R.: https://www.youtube.com/watch?v=o_-dztM0OLA
+Caden H.: https://www.youtube.com/watch?v=tBJTAuwHkFw
+Nick V.: https://www.youtube.com/watch?v=pqkm1Pau9LY
+Angel M.: https://www.youtube.com/watch?v=H-1BVXB-vtQ
+Sam W.: https://www.youtube.com/watch?v=CZ3ZZ_i_vmo
+Diego M.: https://www.youtube.com/watch?v=tn-kzQohbhU
+Ty N.: https://www.youtube.com/watch?v=WlA8HHM9_Zs
+Garret T.: https://www.youtube.com/watch?v=vHqWjtq4CVE
+Noah B.: https://www.youtube.com/watch?v=Lcwj3WlIQO8
+Jake P.: https://www.youtube.com/watch?v=iDchGIpIH24
+Daniel F.: https://www.youtube.com/watch?v=3bCy4fuABSs
+David H.: https://www.youtube.com/watch?v=ncLVggg5N_c
+Jon B.: https://www.youtube.com/watch?v=N_i2wRgC5EU
+Benny S.: https://www.youtube.com/watch?v=TXjOXmzzj6o
+George D.: https://www.youtube.com/watch?v=1Wq1FSPYm5Q
+Deniz T.: https://www.youtube.com/watch?v=ignIURf-G-k
+Jason S.: https://www.youtube.com/watch?v=Zohndt8yRTI
+Ian M.: https://www.youtube.com/watch?v=3E57483fJBI
+George K.: https://www.youtube.com/watch?v=BG0WkZV6_Rs
+Cole A.: https://www.youtube.com/watch?v=toAXtjogewg
+Daniel B.: https://www.youtube.com/watch?v=9kQw7-4BvhM
+Tristen N.: https://www.youtube.com/watch?v=LbBabkwOnH8
+Meelod R.: https://www.youtube.com/watch?v=oGBRnxPIkS4
+Dan R.: https://www.youtube.com/watch?v=RJLy5buhlM4
+DeAvin R. (early): https://www.youtube.com/watch?v=wgX8ltp5AEI
+Terry E.: https://www.youtube.com/watch?v=PE4aEXb3uNA
+Drew L.: https://www.youtube.com/watch?v=BxABlacPKRc
+Camilo M.: https://www.youtube.com/watch?v=n1wOAEm4sS4
+Fardeed A.: https://www.youtube.com/watch?v=LY86VWoqoV8
+Jordan W.: https://www.youtube.com/watch?v=Gh181tLC92A
+Kendra: https://www.youtube.com/watch?v=tPWQK3P1nvM
+Fernando A.: https://www.youtube.com/watch?v=9ui_0lbNYcE
+Justin S.: https://www.youtube.com/watch?v=pGS14kXemxk
+Marco G.: https://www.youtube.com/watch?v=q9HWqDHy0s8
+
+
 When answering:
 - Always use real member names and real numbers
 - Include timelines (days, weeks, months to results)
@@ -159,6 +225,7 @@ When answering:
 - Never push anyone toward joining. Just share what happened for people in similar spots
 - Keep it under 400 words unless they ask for more detail
 - No markdown, no bullet points unless specifically asked
+- Always break responses into short paragraphs (2-3 sentences max per paragraph). Never write a wall of text. Use line breaks generously to keep things readable on mobile.
 
 FOUNDER & COMMUNITY EXPLAINER VIDEO TRANSCRIPT — use this to answer questions about how TSSC works, who Dylan is, the process, and FAQs. Do NOT discuss specific pricing, payment plans, or guarantees — direct those questions to the booking call:
 
@@ -332,9 +399,22 @@ export default function ChatPage() {
         {messages.map((m, i) => (
           <div key={i} className={`bubble-row ${m.role}`}>
             <div className={`bubble ${m.role}`}>
-              {m.content.split('\n').map((line, j) => (
-                <span key={j}>{line}{j < m.content.split('\n').length - 1 && <br />}</span>
-              ))}
+              {m.content.split('\n').map((line, j) => {
+                const urlRegex = /(https?:\/\/[^\s]+|serialsalescommunity\.co[^\s]*)/g;
+                const parts = line.split(urlRegex);
+                return (
+                  <span key={j}>
+                    {parts.map((part, k) => {
+                      if (urlRegex.test(part) || part.startsWith('serialsalescommunity')) {
+                        const href = part.startsWith('http') ? part : 'https://' + part;
+                        return <a key={k} href={href} target="_blank" rel="noopener noreferrer" style={{color: '#b6cdde', textDecoration: 'underline'}}>{part}</a>;
+                      }
+                      return part;
+                    })}
+                    {j < m.content.split('\n').length - 1 && <br />}
+                  </span>
+                );
+              })}
             </div>
           </div>
         ))}
