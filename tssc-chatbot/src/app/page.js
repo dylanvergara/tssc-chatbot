@@ -153,7 +153,18 @@ Here is the complete member interview data:
 
 INTERVIEW LINKS — Whenever you share a member's story, always end with their YouTube interview link on its own line in this exact format:
 
-🎥 Watch [First Name]'s full interview: [URL]
+[HYPERLINK: Watch [First Name]'s full interview →]([URL])
+
+Use natural variation in the call-to-action text. Examples:
+- Watch [First Name]'s full story →
+- See how [First Name] did it →
+- Hear it from [First Name] directly →
+- Watch [First Name]'s interview →
+- See [First Name]'s full story →
+- ▶ Watch [First Name]'s interview
+
+Format it as a markdown-style hyperlink using this exact syntax: [CTA text](URL)
+The renderer will convert this into a clickable hyperlink automatically.
 
 If you mention multiple members, include a link for each one. Only include links for members listed below.
 
@@ -400,17 +411,32 @@ export default function ChatPage() {
           <div key={i} className={`bubble-row ${m.role}`}>
             <div className={`bubble ${m.role}`}>
               {m.content.split('\n').map((line, j) => {
+                // Parse [text](url) markdown links and bare URLs
+                const mdLinkRegex = /\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g;
                 const urlRegex = /(https?:\/\/[^\s]+|serialsalescommunity\.co[^\s]*)/g;
-                const parts = line.split(urlRegex);
+                
+                const renderLine = (text) => {
+                  const parts = [];
+                  let last = 0;
+                  let match;
+                  const combined = /\[([^\]]+)\]\((https?:\/\/[^)]+)\)|(https?:\/\/[^\s]+|serialsalescommunity\.co[^\s]*)/g;
+                  while ((match = combined.exec(text)) !== null) {
+                    if (match.index > last) parts.push(text.slice(last, match.index));
+                    if (match[1] && match[2]) {
+                      parts.push(<a key={match.index} href={match[2]} target="_blank" rel="noopener noreferrer" style={{color: '#b6cdde', textDecoration: 'underline', fontWeight: '500'}}>{match[1]}</a>);
+                    } else {
+                      const href = match[3].startsWith('http') ? match[3] : 'https://' + match[3];
+                      parts.push(<a key={match.index} href={href} target="_blank" rel="noopener noreferrer" style={{color: '#b6cdde', textDecoration: 'underline'}}>{match[3]}</a>);
+                    }
+                    last = match.index + match[0].length;
+                  }
+                  if (last < text.length) parts.push(text.slice(last));
+                  return parts;
+                };
+
                 return (
                   <span key={j}>
-                    {parts.map((part, k) => {
-                      if (urlRegex.test(part) || part.startsWith('serialsalescommunity')) {
-                        const href = part.startsWith('http') ? part : 'https://' + part;
-                        return <a key={k} href={href} target="_blank" rel="noopener noreferrer" style={{color: '#b6cdde', textDecoration: 'underline'}}>{part}</a>;
-                      }
-                      return part;
-                    })}
+                    {renderLine(line)}
                     {j < m.content.split('\n').length - 1 && <br />}
                   </span>
                 );
