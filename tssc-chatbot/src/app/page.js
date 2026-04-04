@@ -150,6 +150,13 @@ Here is the complete member interview data:
 56. DALTON MARR (February 2026): Background: Graduated college 2023, moved to Austin for a corporate tech SDR role. Had tried drop shipping and clothing brand with minimal success. Problem: Hated office politics, commute, unqualified sales advice from superiors, commission structure. Result: Saw Dylan's Instagram ad, joined community, landed first setting offer in about 1 month after 11 applications. Month before quitting: $7K setting part-time while still at tech job. Month he quit: $11,700 as appointment setter — more than his tech SDR salary. Now in month 3-4, top setter, already building connections toward closing. Quote: "No job is guaranteed. People say the standard path is safe — that's not guaranteed at all." Advice: Build connections fast. Do your research. Watch the interviews. You won't find quality offers on Indeed. Trust the process.
 
 57. JORDAN ZADROZNY (Early 2026): Background: From Edmonton, Canada. Dropped out of college. Did door-to-door selling high-end steak and seafood from a van (up to 1,000 customers). Tried ecom and SMMA with no success. Got into high ticket via Facebook groups in July 2023. Problem: Inconsistent early months, went through a couple of offers including a real estate offer and even briefly took a corporate auction job before returning to the space. Result: Joined Dylan's community September/October 2025 after already finding success independently. By the time he joined, already doing $20K+ months. December 2025: $54,000 commission month at 24 years old. Has not earned less than $15K/month since January 2024. Now a tax resident in Qatar (0% tax). Has 8-9 closers and 4 setters on his team. Bottom closer earns at least $15K/month. Pays his mom's rent. Quote: "What do you have to lose? Take the leap. If it works out, great. If it doesn't, at least you know and you can move on." Advice: Be on the right offer with conviction. Take more reps — that's how skills develop. A level 4 salesperson on a level 10 offer beats a level 10 salesperson on a level 4 offer every time. Build a good pipeline. Hire an EA when you can.
+58. JOSH HUZIY (4/2/2026): Background: Ran his own car export business, then led a solar team. Wanted to break into the online world. Problem: Didn't know who to talk to or how to get into the space — not listed on LinkedIn, hard to find a way in. Result: Made $14K USD ($19,500 CAD) in a month, working from anywhere — traveled to Austin and BC while earning. Quote: "If it's working for other people, there's no reason why you can't make it work for yourself." Advice: Have a big willingness to learn. Don't think you know everything.
+
+59. ZACH SCHAFFER (3/27/2026): Background: Wanted to do high-ticket after seeing others making more money. Problem: Finding the right offer and getting on it — "it's really who you know." Result: 3-year TSSC member. Profitable month one, still has $20K MRR coming in, scaled from remote closing to running his own agency. Quote: "You're only like one or two skills… probably just one… from really blowing your income up." Advice: Increase leverage as fast as you can — automations, systems, find positions that give you leverage.
+
+60. JOE EYNON (3/12/2026): Background: 18 years old, didn't want to go to uni. Was doing an agency and selling wine software, working constantly without clear direction. Problem: Loads of hours, no traveling, not getting closer to goals. Struggled finding good offers and clear promotion paths early on. Result: Now a sales manager at 20, earning $10–12K/month, managing a team, traveling globally — Brazil, Colombia, Morocco. Quote: "It is kind of literally everything… all the roles I've gotten have always been like referrals or they know someone… who's put in a word for me." Advice: Take a bet on yourself. Get around the right people. Network is everything — even just getting people to like you can take you a long way.
+
+61. CHRIS PEREIRA (3/6/2026): Background: Worked construction doing 12–15 hour days, nightclub jobs, telecom sales, online fitness coaching, and real estate. Wanted freedom beyond showing homes. Problem: Leads started drying up, commissions going down. Wanted to reach $15–20K months. Result: Second month hit $29,000 CAD. Biggest month $38K. Now sustaining $20–30K/month with freedom, travel, and remote lifestyle. Quote: "It was a very, very quick ROI for me and I'll continue to spend money on community and training for the rest of my life." Advice: Make the leap. Be part of a network. Trust the process, training, and constant self-development.
 
 INTERVIEW LINKS — Whenever you share a member's story, always end with their YouTube interview link on its own line in this exact format:
 
@@ -221,11 +228,16 @@ Terry E.: https://www.youtube.com/watch?v=PE4aEXb3uNA
 Drew L.: https://www.youtube.com/watch?v=BxABlacPKRc
 Camilo M.: https://www.youtube.com/watch?v=n1wOAEm4sS4
 Fardeed A.: https://www.youtube.com/watch?v=LY86VWoqoV8
-Jordan W.: https://www.youtube.com/watch?v=Gh181tLC92A
+Jordan W.: https://www.youtube.com/watch?v=ZBfGJmzLWoM (3.5yr review) or https://www.youtube.com/watch?v=Gh181tLC92A (original)
 Kendra: https://www.youtube.com/watch?v=tPWQK3P1nvM
 Fernando A.: https://www.youtube.com/watch?v=9ui_0lbNYcE
 Justin S.: https://www.youtube.com/watch?v=pGS14kXemxk
 Marco G.: https://www.youtube.com/watch?v=q9HWqDHy0s8
+Josh H.: https://www.youtube.com/watch?v=UUM_Kf6rlRY
+Zach S.: https://www.youtube.com/watch?v=fiRZj6Pt8To
+Jordan W.: https://www.youtube.com/watch?v=ZBfGJmzLWoM
+Joe E.: https://www.youtube.com/watch?v=K2jGMM0KkD8
+Chris P.: https://www.youtube.com/watch?v=0qkQzPdb40s
 
 
 When answering:
@@ -395,7 +407,7 @@ export default function ChatPage() {
         <img src={LOGO} alt="TSSC Logo" className="logo" />
         <div className="header-text">
           <span className="header-title">TSSC Success Query</span>
-          <span className="header-sub">57 stories. 20 hours of interviews. 1 chatbot ready to help.</span>
+          <span className="header-sub">61 stories. 20+ hours of interviews. 1 chatbot ready to help.</span>
         </div>
       </div>
 
