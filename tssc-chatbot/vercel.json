@@ -1,3 +1,10 @@
 {
-  "outputDirectory": ".next"
+  "outputDirectory": ".next",
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://www.serialsalescommunity.co/sqdb",
+      "permanent": true
+    }
+  ]
 }
